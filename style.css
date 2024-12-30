@@ -17,6 +17,8 @@ body {
     padding-top: 3rem;
 }
 
+
+/* SCORE START */
 .scoreContainer{
     background-color: #D9D9D9;
     display: flex;
@@ -47,6 +49,8 @@ body {
     margin-top: 20px;
 }
 
+
+/* GAME CONTAINER START */
 .gameContainer {
     background-color: #D9D9D9;
     margin: 0 9.5rem 0 9.5rem;
@@ -101,3 +105,85 @@ body {
 .selections button:hover {
     box-shadow: 0 0 20px 1px #600f5893;
 }
+
+
+/* RESULT CONTAINER START */
+.resultContainer {
+    background-color: #D9D9D9;
+    margin: 0 9.5rem 0 9.5rem;
+    height: 34rem;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 6rem;
+}
+
+.group {
+    display: inline;
+    text-align: center;
+}
+
+.resultWords {
+    text-align: center;
+    color: #600F58;
+    font-size: 19px;
+    padding-top: 3.5rem;
+}
+
+.resultLine {
+    border: 1px solid #600F58;
+    transform: scaleY(0.5); 
+    width: 10rem;
+    margin: 8px auto;
+}
+
+.resultWords button {
+    height: 2.5rem;
+    width: 8rem;
+    cursor: pointer;
+    background-color: #600F58;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    outline: 1px solid #600F58;
+    transition: background-color 0.2s ease;
+}
+
+.resultWords button:hover {
+    background-color: #600f58b6;
+}
+
+.result p {
+    text-align: center;
+    color: #600F58;
+    font-size: 19px;
+}
+
+.group div{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+}
+
+.group img {
+    width: 115%;
+    height: 115%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.computerImg {
+    transform: scaleX(-1);
+}
+
