@@ -32,7 +32,7 @@ function playGround(playerChoice) {
     const playerImg = document.getElementById('playerImg');
     const computerImg = document.getElementById('computerImg');
 
-    playerImg.src = `/images/${playerChoice}.png`;
+    playerImg.src = `/images/${playerChoice}.png`
     computerImg.src = `./images/${computerChoice}.png`
     
     
